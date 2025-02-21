@@ -10,7 +10,7 @@ npx create-expo-app igniteimhere --template
 ```
 
 ## 📦 **Instalação**
-Antes de executar o projeto, instale as depend�ncias necess�rias com:
+Antes de executar o projeto, instale as dependências necessárias com:
 ```
 npm install
 ```
@@ -25,10 +25,10 @@ npx expo start
 
 Confira abaixo algumas capturas de tela do aplicativo em funcionamento:
 
-![Tela Inicial](./assets/screensho_01.png)  
+![Tela Inicial](./assets/screenshot_01.png)  
 *Tela inicial do aplicativo com o campo de entrada e a lista de participantes vazia.*
 
-![Participante Adicionado](./assets/screensho_02.png)  
+![Participante Adicionado](./assets/screenshot_02.png)  
 *Tela inicial do aplicativo com o campo de entrada e a lista de participantes preenchida.*
 
 O comando abrirá o **Expo DevTools** no navegador.  

@@ -21,6 +21,9 @@ Após a instalação, inicie o projeto utilizando:
 npx expo start
 ```
 
+O comando abrirá o **Expo DevTools** no navegador.  
+Você pode rodar o app em um emulador ou escanear o QR code com o app **Expo Go** no celular.
+
 ## 📸 **Pré-visualização do App**
 
 Confira abaixo algumas capturas de tela do aplicativo em funcionamento:
@@ -29,9 +32,6 @@ Confira abaixo algumas capturas de tela do aplicativo em funcionamento:
   <img src="./assets/screenshot_01.png" alt="Tela Inicial" width="45%"/>
   <img src="./assets/screenshot_02.png" alt="Participante Adicionado" width="45%"/>
 </p>
-
-O comando abrirá o **Expo DevTools** no navegador.  
-Você pode rodar o app em um emulador ou escanear o QR code com o app **Expo Go** no celular.
 
 ## 🛠️ **Tecnologias & Conceitos Aplicados**
 - **📱 Componentes Básicos**

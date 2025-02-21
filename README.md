@@ -25,7 +25,7 @@ npx expo start
 
 Confira abaixo algumas capturas de tela do aplicativo em funcionamento:
 
-![Tela Inicial](./assets/screenshot_01.png)  
+<img src="./assets/screensho_1.png" alt="Tela Inicial" width="100"/> 
 *Tela inicial do aplicativo com o campo de entrada e a lista de participantes vazia.*
 
 ![Participante Adicionado](./assets/screenshot_02.png)  

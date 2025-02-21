@@ -1,14 +1,26 @@
-import {FlatList, ScrollView, StyleSheet, Text, TextInput, TouchableOpacity, View} from 'react-native';
+import {Alert, FlatList, ScrollView, StyleSheet, Text, TextInput, TouchableOpacity, View} from 'react-native';
 import { styles } from './styles';
 import { Participant } from '../../components/Participant';
 export default function Home(){
   const participants = ['Cesar August', 'Igor Gabriel']
 
   function handleParticipantAdd(){
-    console.log('clicado')
+    if(participants.includes("Cesar August")){
+      return Alert.alert("Participante Existe", "JÃ¡ existe um aprticipante com esse nome na lista!")
+    }
   }
 
   function handleParticipantRemove(name: string){
+    Alert.alert("Remover", `Remover o ${name}?`,[
+      {
+        text: 'Sim',
+        onPress: () => Alert.alert("Deletado!"),
+      },
+      {
+        text: 'NÃ£o',
+        style: 'cancel'
+      }
+    ])
     console.log(`removeu ${name}!`)
   }
 
@@ -45,7 +57,7 @@ export default function Home(){
         showsVerticalScrollIndicator={false} 
         ListEmptyComponent={() => (
           <Text style={styles.listEmptyText}>
-            Ninguém chegou no envendo ainda? Adicione participantes a sua lista de presença.
+            Ninguï¿½m chegou no envendo ainda? Adicione participantes a sua lista de presenï¿½a.
           </Text>
         )}
       />

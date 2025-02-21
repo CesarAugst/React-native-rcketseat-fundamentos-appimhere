@@ -1,27 +1,27 @@
-# ?? I’m Here – React Native (Rocketseat)
+# ğŸš€ Iâ€™m Here â€“ React Native (Rocketseat)
 
 Projeto desenvolvido como parte do **Projeto 1** da trilha de **React Native** na plataforma [Rocketseat](https://www.rocketseat.com.br/).  
-O objetivo é criar uma aplicação simples focada em conceitos básicos do **React Native** utilizando o **Expo**.
+O objetivo Ã© criar uma aplicaÃ§Ã£o simples focada em conceitos bÃ¡sicos do **React Native** utilizando o **Expo**.
 
-## ?? **Criação do Projeto**
+## ğŸ“ **CriaÃ§Ã£o do Projeto**
 Para iniciar o projeto foi utilizado o seguinte comando:
 ```
 npx create-expo-app igniteimhere --template
 ```
 
-## ?? **Instalação**
-Antes de executar o projeto, instale as dependências necessárias com:
+## ğŸ“¦ **InstalaÃ§Ã£o**
+Antes de executar o projeto, instale as dependï¿½ncias necessï¿½rias com:
 ```
 npm install
 ```
 
-## ?? **Execução**
-Após a instalação, inicie o projeto utilizando:
+## â–¶ï¸ **ExecuÃ§Ã£o**
+ApÃ³s a instalaÃ§Ã£o, inicie o projeto utilizando:
 ```
 npx expo start
 ```
 
-## ?? **Pré-visualização do App**
+## ğŸ“¸ **PrÃ©-visualizaÃ§Ã£o do App**
 
 Confira abaixo algumas capturas de tela do aplicativo em funcionamento:
 
@@ -31,27 +31,27 @@ Confira abaixo algumas capturas de tela do aplicativo em funcionamento:
 ![Participante Adicionado](./assets/screensho_02.png)  
 *Tela inicial do aplicativo com o campo de entrada e a lista de participantes preenchida.*
 
-O comando abrirá o **Expo DevTools** no navegador.  
-Você pode rodar o app em um emulador ou escanear o QR code com o app **Expo Go** no celular.
+O comando abrirÃ¡ o **Expo DevTools** no navegador.  
+VocÃª pode rodar o app em um emulador ou escanear o QR code com o app **Expo Go** no celular.
 
-## ??? **Tecnologias & Conceitos Aplicados**
-- **?? Componentes Básicos**  
+## ğŸ› ï¸ **Tecnologias & Conceitos Aplicados**
+- **ğŸ“± Componentes BÃ¡sicos**
   - View, Text, TextInput, TouchableOpacity, StatusBar  
-- **?? Estilização**  
-  - Utilização de StyleSheet para criar estilos organizados e reutilizáveis  
-- **?? Listas**  
-  - Implementação de listas dinâmicas utilizando FlatList  
-- **? Feedbacks Visuais**  
-  - Uso de Alert para interações rápidas com o usuário  
-- **?? Hooks**  
+- **ğŸ¨ EstilizaÃ§Ã£o**  
+  - UtilizaÃ§Ã£o de StyleSheet para criar estilos organizados e reutilizÃ¡veis  
+- **ğŸ“‹ Listas**  
+  - ImplementaÃ§Ã£o de listas dinÃ¢micas utilizando FlatList  
+- **âš¡ Feedbacks Visuais**  
+  - Uso de Alert para interaÃ§Ãµes rÃ¡pidas com o usuÃ¡rio  
+- **ğŸ’¡ Hooks**  
   - Gerenciamento de estados com useState  
 
-## ?? **Objetivo do Projeto**
-Desenvolver uma aplicação simples que permite adicionar e remover participantes de um evento, utilizando listas dinâmicas, interações básicas e estilização responsiva.
+## ğŸ“– **Objetivo do Projeto**
+Desenvolver uma aplicaÃ§Ã£o simples que permite adicionar e remover participantes de um evento, utilizando listas dinÃ¢micas, interaÃ§Ãµes bÃ¡sicas e estilizaÃ§Ã£o responsiva.
 
-## ?? **Sobre o Curso**
+## ğŸ’¡ **Sobre o Curso**
 Projeto guiado pela trilha de **React Native** da Rocketseat, focado em introduzir conceitos essenciais do desenvolvimento mobile com **Expo**.
 
 ---
 
-Feito com ?? por [Cesar August](https://github.com/CesarAugst)
+Feito com â¤ï¸ por [Cesar August](https://github.com/CesarAugst)

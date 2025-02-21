@@ -1,7 +1,12 @@
-import {StyleSheet, Text, TextInput, View} from 'react-native';
+import {StyleSheet, Text, TextInput, TouchableOpacity, View} from 'react-native';
 import { styles } from './styles';
 
 export default function Home(){
+
+  function handleParticipantAdd(){
+    console.log('clicado')
+  }
+
   return (
     <View style={styles.container}>
       <Text style={styles.eventName}>
@@ -12,11 +17,17 @@ export default function Home(){
         Sexta, 4 de Novembro de 2022
       </Text>
 
-        <TextInput 
-            style={styles.input}
-            placeholder='Nome do Participante'
-            placeholderTextColor="#6B6B6B"
-        />
+      <TextInput 
+          style={styles.input}
+          placeholder='Nome do Participante'
+          placeholderTextColor="#6B6B6B"
+      />
+
+      <TouchableOpacity style={styles.button} onPress={handleParticipantAdd}>
+        <Text style={styles.buttonText}>
+          +
+        </Text>
+      </TouchableOpacity>
     </View>
   );
 }

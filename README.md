@@ -25,10 +25,10 @@ npx expo start
 
 Confira abaixo algumas capturas de tela do aplicativo em funcionamento:
 
-<img src="./assets/screenshot_1.png" alt="Tela Inicial" width="400"/>
+<img src="./assets/screenshot_01.png" alt="Tela Inicial" width="400"/>
 *Tela inicial do aplicativo com o campo de entrada e a lista de participantes vazia.*
 
-<img src="./assets/screenshot_2.png" alt="Participante Adicionado" width="400"/>
+<img src="./assets/screenshot_02.png" alt="Participante Adicionado" width="400"/>
 *Tela inicial do aplicativo com o campo de entrada e a lista de participantes preenchida.*
 
 O comando abrirá o **Expo DevTools** no navegador.  
